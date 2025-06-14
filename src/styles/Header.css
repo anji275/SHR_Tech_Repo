@@ -1,0 +1,133 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2D68C4;
+  padding: 15px 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  width:35%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a, .dropdown button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adds spacing between icons and text */
+  font-family: 'Lusitana', Georgia, serif;
+}
+
+/*.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #444;
+  padding: 10px;
+  list-style: none;
+  min-width: 180px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}*/
+
+/*.dropdown-menu li {
+  padding: 8px 12px;
+}
+
+.dropdown-menu li a {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dropdown button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 16px;
+}
+*/
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #2D68D3;
+  padding: 10px;
+  list-style: none;
+  min-width: 235px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+/* Ensures clicking menu items closes the dropdown */
+.dropdown-menu li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu, .dropdown button:focus + .dropdown-menu {
+  display: block;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    width: 100%;
+  }
+}
