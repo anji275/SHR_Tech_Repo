@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SHR_Tech_Repo/static/css/main.409888b7.css",
+    "main.js": "/SHR_Tech_Repo/static/js/main.30971c99.js",
+    "static/js/453.64a4dd8a.chunk.js": "/SHR_Tech_Repo/static/js/453.64a4dd8a.chunk.js",
+    "static/media/Business.png": "/SHR_Tech_Repo/static/media/Business.176d669b76c3f6970382.png",
+    "static/media/Dev5_C.png": "/SHR_Tech_Repo/static/media/Dev5_C.22a450d37a61b9357500.png",
+    "static/media/Careers.jpg": "/SHR_Tech_Repo/static/media/Careers.4ea4876b7bf8ca202283.jpg",
+    "static/media/Mobile.jpg": "/SHR_Tech_Repo/static/media/Mobile.4251f4b3fbb36698ea16.jpg",
+    "static/media/Homepage.png": "/SHR_Tech_Repo/static/media/Homepage.eadb74cc017dc549fe9f.png",
+    "static/media/About.png": "/SHR_Tech_Repo/static/media/About.62c6c939b079fd5c46af.png",
+    "static/media/cloud1.png": "/SHR_Tech_Repo/static/media/cloud1.0894aa93f98ffb096de5.png",
+    "static/media/SHRTech_logo_small.png": "/SHR_Tech_Repo/static/media/SHRTech_logo_small.472616aa59c3f3071ec8.png",
+    "index.html": "/SHR_Tech_Repo/index.html",
+    "main.409888b7.css.map": "/SHR_Tech_Repo/static/css/main.409888b7.css.map",
+    "main.30971c99.js.map": "/SHR_Tech_Repo/static/js/main.30971c99.js.map",
+    "453.64a4dd8a.chunk.js.map": "/SHR_Tech_Repo/static/js/453.64a4dd8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.409888b7.css",
+    "static/js/main.30971c99.js"
+  ]
+}
